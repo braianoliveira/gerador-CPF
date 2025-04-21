@@ -1,0 +1,17 @@
+{
+  "name": "@braianrj2/gerador-cpf",
+  "version": "1.0.0",
+  "description": "Gera e valida CPFs",
+  "main": "./src/index.js",
+  "exports": "./src/index.js",
+  "scripts": {
+    "cov": "npx vitest run --coverage",
+    "pretest": "echo Antes",
+    "test": "npx vitest run",
+    "posttest": "echo Depois",
+    "test:watch": "vitest"
+  },
+  "keywords": [ "gerador", "cpf", "validador", "validar" ],
+  "author": "Braian",
+  "license": "MIT"
+}
